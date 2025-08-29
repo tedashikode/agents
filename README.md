@@ -46,6 +46,7 @@ This repository contains 75 specialized subagents that extend Claude Code's capa
 - **[mobile-developer](mobile-developer.md)** - Develop React Native or Flutter apps with native integrations
 - **[graphql-architect](graphql-architect.md)** - Design GraphQL schemas, resolvers, and federation
 - **[architect-reviewer](architect-review.md)** - Reviews code changes for architectural consistency and patterns
+- **[project-manager](project-manager.md)** - Coordinates project planning, team management, and delivery with roadmaps and risk management
 
 ### Language Specialists
 - **[python-pro](python-pro.md)** - Write idiomatic Python code with advanced features and optimizations
@@ -181,6 +182,7 @@ All 75 subagents are configured with specific Claude models based on task comple
 - `mobile-developer` - React Native/Flutter apps
 - `sql-pro` - Complex SQL optimization
 - `graphql-architect` - GraphQL schemas and resolvers
+- `project-manager` - Project planning, team coordination, and delivery management
 
 **Infrastructure & Operations:**
 - `devops-troubleshooter` - Production debugging
@@ -273,6 +275,11 @@ Mention the subagent by name in your request:
 "Use content-marketer to write SEO-optimized blog post"
 "Get sales-automator to create cold email sequence"
 "Have customer-support draft FAQ documentation"
+
+# Project management
+"Use project-manager to create sprint plan for user authentication feature"
+"Have project-manager assess risks for the mobile app launch"
+"Get project-manager to coordinate cross-team dependencies for API migration"
 ```
 
 ### Multi-Agent Workflows
@@ -399,6 +406,7 @@ payment-integration → security-auditor → Validated implementation
 - **frontend-developer**: UI/UX planning, component architecture
 - **ui-ux-designer**: Interface design, wireframes, design systems, user research
 - **cloud-architect**: Infrastructure design, scalability planning
+- **project-manager**: Project planning, sprint coordination, stakeholder management, risk mitigation
 
 ### 🔧 Implementation & Development  
 - **python-pro**: Python-specific development tasks
